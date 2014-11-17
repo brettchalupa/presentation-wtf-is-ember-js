@@ -4,9 +4,9 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>History of a Thriving Codebase</title>
+		<title>WTF is Ember.js and Ember CLI?</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="description" content="A presentation explaining what Ember.js and Ember CLI are.">
 		<meta name="author" content="Brett Chalupa">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -37,7 +37,7 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
         <section>
-          <h2>History of a Thriving Codebase</h2>
+          <h2>WTF is Ember.js and Ember CLI?</h2>
           <p>
             Brett Chalupa
           </p>
@@ -53,428 +53,41 @@
           </section>
 
           <section>
-            <h2>Thank you for coming out tonight!</h2>
-          </section>
-
-          <section>
             <h2>I live in Burlington, Vermont.</h2>
           </section>
 
           <section>
-            <h3>I help organize the Burlington Ruby Conference. You should come!</h3>
-
-            <h4>August 1st, 2nd & 3rd<br>
-            http://burlingtonruby.com<br>
-            @btvrubyconf</h4>
+            <h2>I work as a freelance web application developer.</h2>
           </section>
 
           <section>
-            <img src='./img/fullstack.png'>
-            <h2>I work at FullStack.</h2>
-            <h3>http://gofullstack.com</h3>
+            <h2>I have been working with Ember.js for the past six months.</h2>
           </section>
-          <section>
-            <h2>I am really excited to be here.</h2>
-          </section>
-          <section>
-            <h2>I cannot imagine working without Git.</h2>
-          </section>
-          <section>
-            <h2>It is a tool most of us use on a daily basis.</h2>
-          </section>
-          <section>
-            <h2>How often do we think about it besides when we are fighting
-              it?</h2>
 
-            <aside class='notes'>
-              <p>merge conflicts, amirite?</p>
-            </aside>
-          </section>
           <section>
-            <h2>I think Git is something we should think about more often.
+            <h2>I remember people talking about it and wondering WTF it is.</h2>
           </section>
-          <section>
-            <h2>Here is why!</h2>
-          </section>
-        </section>
+				</section>
 
         <section>
           <section>
-            <h2>What is a thriving codebase?</h2>
+            <h2>Ember.js is an MV* web application framework.</h2>
           </section>
-          <section>
-            <h2>A thriving codebase is under active development and in a healthy state.</h2>
 
-            <aside class='notes'>
-              <p>a.k.a. tests are passing.</p>
-            </aside>
-          </section>
           <section>
-            <h2>It is that project you work on from 9-5.</h2>
+            <h2>More specifically, MVCCRT.</h2>
           </section>
-          <section>
-            <h2>It is that gem you hack on when you cannot sleep.</h2>
-          </section>
-          <section>
-            <h2>It is code that you care about.</h2>
-          </section>
-          <section>
-            <h2>Let's explore how we can create and leverage our Git history to
-              the fullest.</h2>
-          </section>
-        </section>
-        <section>
-          <section>
-            <h2>Crafting Your History</h2>
-          </section>
-          <section>
-            <h2>Commits have a lot of value.</h2>
-          </section>
-          <section>
-            <h2>But they are so easy to do hastily.</h2>
-          </section>
-          <section>
-            <img src="./img/tomdoc.png" />
-          </section>
-          <section>
-            <img src="./img/update.png" />
-          </section>
-          <section>
-            <img src="./img/kind-of-sort-of-working.png" />
-          </section>
-          <section>
-            <img src="./img/fuck.png" />
-          </section>
-          <section>
-            <h2>Your commits tell a story.</h2>
-          </section>
-          <section>
-            <h2>They are a journal of where your code has been.</h2>
-          </section>
-          <section>
-            <h2>When you are wondering 'why the heck did I make this change?'
-              two years in the future, your commits have got your back.</h2>
-          </section>
-          <section>
-            <h2>When your company hires someone new and you are too busy in
-              meetings to help, your commits have got your back.</h2>
-          </section>
-          <section>
-            <h2>When you take on a new client with an existing codebase,
-              their commits have got your back*.</h2>
-            <p>*In this case probably not.</p>
-          </section>
-          <section>
-            <h2>When you open source your project,
-              your commits have got your back.</h2>
-          </section>
-          <section>
-            <h2>When working alone, commits are pretty important.
 
-            <aside class='notes'>
-              <p>IDK about you, but I have the _worst_ memory.</p>
-            </aside>
-          </section>
           <section>
-            <h2>When working with a team, commits are extremely important.</h2>
+            <h2>It is comparable to Anguar.js and Backbone.js.</h2>
+          </section>
 
-            <aside class='notes'>
-              <p>It is important to think of the future when writing
-              history.</p>
-            </aside>
-          </section>
-        </section>
-
-        <section> <!-- git add -->
           <section>
-            <h2>First and foremost, you need to add the right files to your
-              stage.</h2>
-          </section>
-          <section>
-            <h2>Try not to use<br/><br/><code>git add --all</code></h2>
-          </section>
-          <section>
-            <h2>Do use <br/><br/><code>git add -p</code></h2>
-          </section>
-          <section>
-            <h2>It walks you through what has changed, allowing you to add or
-              skip hunks.</h2>
-          </section>
-          <section>
-            <img src="./img/git_add_1.png" />
-          </section>
-          <section>
-            <img src="./img/git_add_2.png" />
-          </section>
-          <section>
-            <iframe src="http://showterm.io/c824448d61f816e606072#stop"
-              width="640" height="480"></iframe>
-          </section>
-          <section>
-            <h2><code>git diff</code><br/><br/> shows unstaged changes</h2>
-
-            <aside class='notes'>
-              <p>git diff uses less to show changes, man less to utilize using
-              it</p>
-            </aside>
-          </section>
-          <section>
-            <h2><code>git diff --cached</code><br/><br/> shows staged changes</h2>
-          </section>
-          <section>
-            <iframe src="http://showterm.io/4cf196f070836311ba2ac#stop"
-              width="640" height="480"></iframe>
-          </section>
-          <section>
-            <h2>Your good friend<br/><br/><code>git status</code><br/><br/>is always helpful.</h2>
-          </section>
-        </section>
-
-        <section> <!-- wonderful commit messages -->
-          <section>
-            <h2>Your commits are important documentation.</h2>
-          </section>
-          <section>
-            <h2>Treat your commits like they matter as much as your tests.</h2>
-          </section>
-          <section>
-            <h2>They should explain the motivation surrounding what changed and why.</h2>
-          </section>
-          <section>
-            <h2>They should be intention revealing.</h2>
-          </section>
-          <section>
-            <img src="./img/seth_vargo_login.png" />
-          </section>
-          <section>
-            <h2>The best way to accomplish this is by writing Wonderful Commit Messages.</h2>
-          </section>
-          <section>
-            <h2>A Wonderful Commit Message follows three rules.</h2>
-          </section>
-          <section>
-            <h3>1. It has a concise description under 50 characters.</h3>
-          </section>
-          <section>
-            <h3>2. It has a summary that describes what changed and why.</h3>
-          </section>
-          <section>
-            <h3>3. It is written in the present tense.</h3>
-            <aside class='notes'>
-              <p>Think about your future self reading it!</p>
-            </aside>
-          </section>
-          <section>
-            <img src="./img/git_commit.png" />
-          </section>
-        </section>
-
-        <section> <!-- wonderful commit message examples -->
-          <section>
-            <h2>Let's look at some wonderful commit messages.</h2>
-          </section>
-          <section>
-            <img src="./img/seth_vargo_wonderful_commit.png" />
-          </section>
-          <section>
-            <img src="./img/pete_brown_wonderful_commit.png" />
-          </section>
-          <section>
-            <img src="./img/josh_and_brian.png" />
-          </section>
-        </section>
-
-        <section> <!-- git commit -->
-          <section> <!-- git commit -v -->
-            <h2>Have you ever done?<br/><br/><small><code>git commit -m 'Quick
-                change'</code></small></h2>
-          </section>
-          <section>
-            <h2><code>git commit -m</code> is the leading cause of Lazy Commit
-              Messages.</h2>
-          </section>
-          <section>
-            <h2>Try hard not to use -m, instead use -v.</h2>
-          </section>
-          <section>
-            <h2><code>git commit -v</code> opens your default git editor
-            for writing a wonderful commit.</h2>
-          </section>
-          <section>
-            <iframe src="http://showterm.io/830be1dc1c26c20f1c1ac#stop"
-              width="720" height="480"></iframe>
-          </section>
-        </section>
-
-        <section> <!-- the three types of commits -->
-          <section>
-            <h2>There are three types of commits.</h2>
-          </section>
-          <section>
-            <h2>1. Progress commits</h2>
-          </section>
-          <section>
-            <h2>Progress commits show how devs are working through their
-              feature.</h2>
-          </section>
-          <section>
-            <h2>Progress commits should be granular and specific.</h2>
-          </section>
-          <section>
-            <h2>Do not make sweeping progress commits.</h2>
-          </section>
-          <section>
-            <h2>Make your progress commits early and often.</h2>
-          </section>
-          <section>
-            <h2>It is much easier to squash commits than to split them.</h2>
-          </section>
-          <section>
-            <img src='./img/progress_commits.png'>
-          </section>
-          <section>
-            <h2>Progress commits get squashed down into...</h2>
-          </section>
-          <section>
-            <h2>2. Anchor commits</h2>
-          </section>
-          <section>
-            <h2>Anchor commits should be Wonderful Commits.</h2>
-          </section>
-          <section>
-            <h2>They are the commits that will be merged into master.</h2>
-          </section>
-          <section>
-            <h2>They are set in stone.</h2>
-          </section>
-          <section>
-            <img src='./img/revise_cookbooks_ui.png'>
-          </section>
-          <section>
-            <h2>3. Merge commits</h2>
-          </section>
-          <section>
-            <h2>Merge commits show the story of when branches got merged
-              in.</h2>
-          </section>
-          <section>
-            <img src='./img/merge_commit.png'>
-          </section>
-        </section>
-
-        <section> <!-- rewriting history -->
-          <section>
-            <h2>Git allows you to rewrite history to create a better
-              history.</h2>
-          </section>
-          <section>
-            <h3>You should be less concerned with maintaining a 'true' history
-              and more concerned with creating a 'useful' history.</h3>
-          </section>
-          <section>
-            <h2>There are two commands that I find indispensable when working
-              with history.</h2>
-          </section>
-          <section>
-            <h2>1. <code>git commit --amend</code></h2>
-          </section>
-          <section>
-            <h2>2. <code>git rebase -i</code></h2>
-          </section>
-        </section>
-
-        <section> <!-- git commit amend -->
-          <section>
-            <h2>How many times do you make a commit but realize you forgot to
-              write the docs?</h2>
-          </section>
-          <section>
-            <h2>How many times do you make a commit but realize you forgot to
-              add that one file?</h2>
-          </section>
-          <section>
-            <h2><code>git commit --amend</code> allows you to add changes to your
-            stage and adjust your last commit.</h2>
-          </section>
-          <section>
-            <iframe src="http://showterm.io/7ae22f30604fa155d6572#stop"
-              width="720" height="480"></iframe>
-          </section>
-        </section>
-
-        <section> <!-- git rebase -->
-          <section>
-            <h2>Do not fear the rebase.</h2>
-          </section>
-          <section>
-            <h2>Embrace the rebase.</h2>
-          </section>
-          <section>
-            <h2><code>git rebase --abort</code><h2>
-          </section>
-          <section>
-            <h2>Abort quits out of the rebase, sending you back to before the
-              rebase.</h2>
-          </section>
-          <section>
-            <h3><code>git rebase origin/master</code></h3>
-          </section>
-          <section>
-            <h2>Fix those conflicts and do not look back.</h2>
-          </section>
-          <section>
-            <h3>When you are ready to squash your progress commits into anchor
-              commits, look no further than...</h3>
-          </section>
-          <section>
-            <h2><code>git rebase -i</code><h2>
-          </section>
-          <section>
-            <h3><code>git rebase -i origin/master</code><h3>
-          </section>
-          <section>
-            <img src='./img/git_rebase_1.png'>
-          </section>
-          <section>
-            <img src='./img/git_rebase_2.png'>
-          </section>
-          <section>
-            <img src='./img/git_rebase_3.png'>
-          </section>
-          <section>
-            <iframe src="http://showterm.io/0640b5959cb6faaa415c9#stop"
-              width="720" height="580"></iframe>
-          </section>
-          <section>
-            <h2>It is easier to squash commits than to separate
-              commits.</h2>
-          </section>
-          <section>
-            <h2>It is possible to edit and separate commits, but you may find
-              yourself asking if it is worth the hassle.</h2>
-          </section>
-          <section>
-            <h2>Take your time with rebase and read the docs as you go.</h2>
-          </section>
-          <section>
-            <h2>Rebase with a pair if you can!</h2>
+            <h2>It is developed by a core team and hundreds of contributors.</h2>
           </section>
         </section>
 
         <section><!-- wrapping up -->
-          <section>
-            <h2>There is alot to Git. Here are some fun topics to dig deeper
-              into:</h2>
-          </section>
-          <section>
-            <h2>Viewing Your History</h2>
-          </section>
-          <section>
-            <h2>Searching Your History</h2>
-          </section>
-          <section>
-            <h2>Resetting Your History</h2>
-          </section>
           <section>
             <img src='./img/thats_all_folks.gif'>
           </section>
